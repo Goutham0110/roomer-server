@@ -1,5 +1,5 @@
 const configs = {
-    PORT: 8000
+    PORT: process.env.PORT || 8000
 };
 
 export default configs;
